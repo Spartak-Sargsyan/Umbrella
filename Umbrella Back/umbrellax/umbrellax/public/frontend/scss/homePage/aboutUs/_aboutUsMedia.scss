@@ -1,0 +1,196 @@
+@include ex {
+  .about__container {
+    .about__left__blog {
+      width: 43%;
+    }
+
+    .about__right__blog {
+      width: 55%;
+      gap: 15px;
+
+      .about__text {
+        font-size: 16px;
+      }
+
+      .about__list {
+        .about__item {
+          font-size: 15px;
+        }
+      }
+
+      .about__btn {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@include xxl {
+  .about__container {
+    .about__right__blog {
+      .about__min__title {
+        font-size: 18px;
+      }
+
+      .about__text {
+        font-size: 13px;
+      }
+
+      .about__list {
+        .about__item {
+          font-size: 13px;
+        }
+      }
+
+      .about__btn {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@include xl {
+  .about__container {
+    .about__left__blog {
+      width: 34%;
+    }
+    .about__right__blog {
+      width: 63%;
+      gap: 10px;
+      .about__min__title {
+        font-size: 15px;
+      }
+
+      .about__text {
+        font-size: 12px;
+      }
+
+      .about__list {
+        .about__item {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@include lg {
+  .about__container {
+   padding-top: 30px;
+    .about__left__blog {
+      width: 100%;
+      margin: 0 auto 10px;
+      img {
+        height: 350px;
+      }
+    }
+    .about__right__blog {
+      width: 100%;
+      margin: 15px auto 0;
+      gap: 15px;
+      .about__min__title {
+        font-size: 20px;
+      }
+
+      .about__text {
+        font-size: 16px;
+      }
+
+      .about__list {
+        .about__item {
+          font-size: 16px;
+        }
+      }
+
+      .about__btn {
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+@include md {
+  .about__container {
+    .about__left__blog {
+      img {
+        height: 300px;
+      }
+    }
+    .about__right__blog {
+      .about__min__title {
+        font-size: 16px;
+      }
+
+      .about__text {
+        font-size: 15px;
+      }
+
+      .about__list {
+        .about__item {
+          font-size: 14px;
+        }
+      }
+
+      .about__btn {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@include sm {
+  .about__container {
+    .about__left__blog {
+      img {
+        height: 230px;
+      }
+    }
+    .about__right__blog {
+      .about__min__title {
+        text-align: center;
+      }
+
+      .about__text {
+        text-align: center;
+      }
+
+      .about__list {
+        padding: 0;
+        list-style: none;
+      }
+
+      .about__btn {
+        margin: 10px auto;
+      }
+    }
+  }
+}
+
+@include xs {
+  .about__container {
+    .about__left__blog {
+      img {
+        height: 200px;
+      }
+    }
+    .about__right__blog {
+      .about__min__title {
+        font-size: 14px;
+      }
+
+      .about__text {
+        font-size: 14px;
+      }
+
+      .about__list {
+        .about__item {
+          font-size: 13px;
+        }
+      }
+
+      .about__btn {
+        font-size: 14px;
+      }
+    }
+  }
+}

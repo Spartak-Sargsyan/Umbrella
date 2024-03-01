@@ -1,0 +1,57 @@
+.footer{
+   margin-top: 50px;
+   border-top:1px solid $lightGrey;
+   padding: 20px 0;
+   
+}
+
+
+
+@include xl{
+   .footer{
+      .footer__content{
+         font-size: 14px;
+      }
+   }
+}
+
+@include lg{
+   .footer{
+      .footer__logo{
+         width:50px;
+         img{
+            width:100%;
+         }
+      }
+   }
+}
+
+@include md{
+   .footer{
+     .footer__content{
+      font-size: 12px;
+     }
+   }
+}
+
+@include sm{
+   .footer{
+     .footer__logo{
+      width: 35px;
+     }
+   }
+}
+
+@include xs{
+   .footer{
+    .footer__content{
+      width: max-content;
+      margin: 0 auto;
+      flex-direction: column;
+      font-size: 14px;
+     .footer__link{
+      display: none;
+     }
+    }
+   }
+   }

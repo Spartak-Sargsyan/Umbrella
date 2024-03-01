@@ -1,0 +1,126 @@
+.register__page {
+  width: 100%;
+  background: #0c2235;
+  .register__left__blog,
+  .register__right__blog {
+    width: 45%;
+  }
+
+  .register__left__blog {
+    position: relative;
+    height: 100%;
+    .bg__img {
+      width: 100%;
+      height: 1100px;
+      img {
+        width: 100%;
+        height: 100%;
+        animation-name: animate;
+        animation-duration: 2s;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes animate {
+        0% {
+          margin-top: 30px;
+        }
+        100% {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+
+  .register__right__blog {
+    .form__container {
+      color: $white;
+      margin-top: 80px;
+      .form__title {
+        font-family: monsterratBold;
+        font-size: 30px;
+
+        .span1 {
+          font-family: monsterratMedium;
+          font-weight: 100;
+        }
+        .span2 {
+          border-bottom: 5px solid $lightBlue;
+        }
+      }
+
+      .form__text {
+        margin-top: 30px;
+      }
+
+      .register__form {
+        margin-top: 30px;
+
+        .form__blog {
+          width: 100%;
+          margin-bottom: 20px;
+
+          label {
+            color: $lightGrey;
+            display: block;
+            font-weight: 400;
+            margin-bottom: 15px;
+          }
+
+          input {
+            width: 100%;
+            border: transparent;
+            color: $white;
+            padding: 10px 0;
+            border-bottom: 1px solid $lightGrey;
+            font-size: 16px;
+          }
+
+          input[type="date"] {
+            background: url("../img/calendar.png") no-repeat;
+            background-position: 100%;
+            background-size: 15px;
+          }
+
+          input[type="date"]::-webkit-calendar-picker-indicator {
+            opacity: 0;
+            cursor: pointer;
+          }
+
+          select {
+            width: 100%;
+            padding: 10px 0;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid $lightGrey;
+            color: $white;
+            cursor: pointer;
+            font-size: 16px;
+            outline: none;
+          }
+        }
+
+        .form__btn {
+          margin-top: 50px;
+
+          button {
+            width: 100%;
+            height: 60px;
+            background: #1f2d48;
+            border: 1px solid $lightBlue;
+            color: $lightBlue;
+            font-size: 18px;
+            outline: none;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+              background: $lightBlue;
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

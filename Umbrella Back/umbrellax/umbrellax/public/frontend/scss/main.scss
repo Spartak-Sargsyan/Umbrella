@@ -1,0 +1,40 @@
+@import './base/vars';
+@import './base/breakpoint';
+@import './base/base';
+
+@import './components/middleButton/middleButton';
+@import './components/header/contacts';
+@import './components/header/navbar';
+@import './components/title/title';
+@import './components/infoBlog/infoBlog';
+@import './components/footer/footer';
+
+
+//homePage
+@import './homePage/heroSection/heroSection';
+@import './homePage/aboutUs/aboutUs';
+@import './homePage/digital/digital';
+@import './homePage/gallery/gallery';
+@import './homePage/space/space';
+@import './homePage/programs/programs';
+@import './homePage/apply/apply';
+@import './homePage/brand/brand';
+@import './homePage/dWorld/dWorld';
+@import './homePage/homeForm/form';
+
+//registerPage
+@import './registerPage/register';
+
+
+//media
+@import './components/header/contactsMedia';
+@import './components/header/navbarMedia';
+// homePage
+@import './homePage/aboutUs/aboutUsMedia';
+@import './homePage/digital/digitalMedia';
+@import './homePage/apply/applyMedia';
+@import './homePage/space/spaceMedia';
+@import './homePage/homeForm/formMedia';
+
+// registerPage
+@import './registerPage/registerMedia';

@@ -1,0 +1,124 @@
+@include xl {
+  .register__page {
+    .register__left__blog,
+    .register__right__blog {
+      width: 48%;
+    }
+    .register__left__blog {
+      .bg__img {
+        height: 800px;
+        margin-top: 200px;
+      }
+    }
+
+    .register__right__blog {
+      .form__container {
+        .form__title {
+          font-size: 25px;
+
+          .span2 {
+            border-bottom: 2px solid $lightBlue;
+          }
+        }
+
+        .form__text {
+          font-size: 14px;
+        }
+
+        .register__form {
+          .form__blog {
+            label {
+              font-size: 14px;
+            }
+
+            input {
+              font-size: 14px;
+            }
+
+            select {
+              font-size: 14px;
+            }
+          }
+
+          .form__btn {
+            button {
+              height: 50px;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@include lg {
+  .register__page {
+    padding-bottom: 30px;
+    .register__left__blog {
+      display: none;
+    }
+
+    .register__right__blog {
+      width: 70%;
+      margin: 0 auto;
+
+      .register__form {
+        .form__btn {
+          button:hover {
+            background: #1f2d48;
+            color: $lightBlue;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include md {
+  .register__page {
+    .register__right__blog {
+      width: 100%;
+    }
+  }
+}
+
+@include sm {
+  .register__page {
+    .register__right__blog {
+      .form__container {
+        .form__title {
+          font-size: 16px;
+        }
+
+        .form__text {
+          font-size: 13px;
+        }
+
+        .register__form {
+          .form__blog {
+            label {
+              font-size: 13px;
+              padding-bottom: 0px;
+            }
+
+            input {
+              font-size: 13px;
+            }
+
+            select {
+              font-size: 13px;
+            }
+          }
+
+          .form__btn {
+            button {
+              height: 40px;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+.information__container {
+  margin-top: 50px;
+  .information__blog {
+    width: 31%;
+    border-radius: 10px;
+    border: 1px solid $lightGrey;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    .information__title {
+      font-size: 25px;
+      font-weight: 600;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+    }
+
+    .information__content {
+      font-weight: 500;
+      line-height: 25px;
+      color: $grey;
+    }
+
+    .information__btn {
+      button {
+        margin-top: 20px;
+        background: none;
+        color: $blue;
+        cursor: pointer;
+        outline: none;
+        text-decoration: underline;
+        border: none;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@include xxl {
+  .information__container {
+    .information__blog {
+      width: 32%;
+      .information__title {
+        font-size: 20px;
+      }
+      .information__content {
+        font-size: 15px;
+      }
+      .information__btn {
+        button{
+         font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@include xl {
+  .information__container {
+    .information__blog {
+      width: 33%;
+      padding: 10px;
+      .information__title {
+        font-size: 18px;
+      }
+      .information__content {
+        font-size: 14px;
+      }
+      .information__btn {
+         button{
+          font-size: 14px;
+         }
+       }
+    }
+  }
+}
+
+@include lg {
+  .information__container {
+    .information__blog {
+      width: 48%;
+      margin: 0 auto 15px;
+    }
+  }
+}
+
+@include md {
+  .information__container {
+    .information__blog {
+      width: 49%;
+      .information__title {
+        margin-bottom: 10px;
+      }
+      .information__content {
+        font-size: 13px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+@include sm {
+  .information__container {
+    .information__blog {
+      width: 80%;
+      text-align: center;
+      .information__btn{
+         width: max-content;
+         margin: 0 auto;
+      }
+    }
+  }
+}
+
+@include xs {
+  .information__container {
+    .information__blog {
+      width: 100%;
+      .information__title {
+        font-size: 16px;
+      }
+    }
+  }
+}

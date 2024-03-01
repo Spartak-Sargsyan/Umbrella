@@ -1,0 +1,48 @@
+.middleButton{
+   width: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 50px;
+   color: $white;
+   background: $lightBlue;
+   font-size: 18px;
+   border:1px solid $lightBlue;
+   transition: all .3s ease-in-out;
+   &:hover{
+    background: $white;
+    color:$lightBlue;
+   }
+}
+
+@include xl{
+   .middleButton{
+      width: 180px;
+      height: 45px;
+      font-size: 16px;
+   }
+}
+
+@include md{
+   .middleButton{
+      width: 150px;
+      height: 40px;
+      font-size: 14px;
+   }
+}
+
+@include sm{
+   .middleButton{
+      width: 140px;
+      height: 35px;
+      font-size: 13px;
+   }
+}
+
+@include xs{
+   .middleButton{
+      width: 130px;
+      height: 30px;
+      font-size: 13px;
+   }
+}

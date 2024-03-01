@@ -1,0 +1,44 @@
+@include md{
+   .header__top{
+      .header__contacts{
+         font-size: 12px;
+      }
+   
+      .header__social__icons{
+         a{
+            font-size: 14px;
+         }
+      }
+   }
+}
+
+@include sm{
+   .header__top{
+      .header__contacts{
+         font-size: 11px;
+         gap: 15px;
+      }
+   
+      .header__social__icons{
+         a{
+            font-size: 13px;
+         }
+      }
+   }
+}
+
+@include sm{
+   .header__top{
+      .header__contacts{
+         .header__phone{
+            display: none;
+         }
+      }
+   
+      .header__social__icons{
+         a{
+            font-size: 13px;
+         }
+      }
+   }
+}

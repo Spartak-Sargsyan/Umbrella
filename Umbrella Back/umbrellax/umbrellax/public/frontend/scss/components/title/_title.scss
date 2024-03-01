@@ -1,0 +1,25 @@
+.title{
+   font-size: 35px;
+   font-style: italic;
+   font-family: monsterratThin;
+   margin-bottom: 20px;
+}
+
+@include ex{
+   .title{
+      font-size: 25px;
+   }
+}
+
+@include xl{
+   .title{
+      font-size: 20px;
+   }
+}
+
+@include sm{
+   .title{
+      font-size: 18px;
+      text-align: center;
+   }
+}

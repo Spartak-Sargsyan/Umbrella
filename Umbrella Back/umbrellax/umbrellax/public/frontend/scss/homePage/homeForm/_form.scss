@@ -1,0 +1,88 @@
+.touch__container {
+  margin-top: 50px;
+  .touch__form,
+  .touch__atlas {
+    width: 45%;
+  }
+  .touch__form {
+    .title {
+      span {
+        color: $lightBlue;
+      }
+    }
+
+    .touch__content {
+      margin-top: 30px;
+    }
+
+    .touch__forma {
+      width: 100%;
+      .form__blog {
+        margin: 15px 0;
+        input {
+          width: 100%;
+          padding: 10px;
+          outline: none;
+          border: 1px solid $lightGrey;
+          background: none;
+          background: #2b2b2b12;
+        }
+
+        textarea{
+         width: 100%;
+         outline: none;
+         border: 1px solid $lightGrey;
+         padding: 10px;
+         resize: none;
+         background: #2b2b2b12;
+         box-sizing: border-box;
+        }
+      }
+      .touch__btn {
+        margin-top: 15px;
+      
+        .btn {
+          background: none;
+          color: $black;
+          font-size: 16px;
+          border: 1px solid $lightBlue;
+          color: $white;
+          width: 100%;
+          padding: 15px;
+          cursor: pointer;
+          outline: none;
+          transition: all 0.3s ease-in-out;
+          background: $lightBlue;
+          &:hover {
+            background: $white;
+            color: $lightBlue;
+
+          }
+        }
+      }
+    }
+  }
+
+  .dx__contacts {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    .contact__blog {
+      display: flex;
+      .contacts__icon {
+        font-size: 30px;
+        margin-right: 10px;
+      }
+      .contacts__content {
+        h5 {
+          font-size: 14px;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

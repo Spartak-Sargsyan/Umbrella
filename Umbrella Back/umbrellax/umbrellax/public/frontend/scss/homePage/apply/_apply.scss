@@ -1,0 +1,34 @@
+.apply__container{
+   margin-top: 50px;
+   width: 100%;
+   background: linear-gradient(94.25deg, #0190E0 35.95%, rgba(1, 193, 224, 0) 199.67%);
+   color: $white;
+   padding: 0;
+   height: 400px;
+   .apply__left__blog,.apply__right__blog{
+      width:50%;
+      height: 100%;
+     
+   }
+   .apply__left__blog{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .apply__title{
+         text-transform: uppercase;
+         font-size: 35px;
+      }
+
+      .apply__content{
+         font-size: 18px;
+         margin: 20px 0;
+      }
+   }
+   .apply__right__blog{
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 32% 100%);
+      img{
+         width: 100%;
+         height: 100%;
+      }
+   }
+}

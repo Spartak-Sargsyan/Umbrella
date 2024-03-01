@@ -1,0 +1,165 @@
+@include xxl {
+  .touch__container {
+    .touch__form,
+    .touch__atlas {
+      width: 48%;
+    }
+    .dx__contacts {
+      .contact__blog {
+        .contacts__icon {
+          font-size: 25px;
+        }
+        .contacts__content {
+          h5 {
+            font-size: 12px;
+          }
+
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+@include xl {
+  .touch__container {
+    .touch__form,
+    .touch__atlas {
+      width: 70%;
+      margin: 0 auto 30px;
+    }
+
+    .touch__form {
+      .touch__content {
+        font-size: 14px;
+      }
+    }
+
+    .dx__contacts {
+      .contact__blog {
+        .contacts__icon {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+@include lg {
+  .touch__container {
+    .dx__contacts {
+      .contact__blog {
+        .contacts__icon {
+          font-size: 16px;
+        }
+        .contacts__content {
+          h5 {
+            font-size: 11px;
+          }
+
+          p {
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include md {
+  .touch__container {
+    text-align: center;
+    .touch__form,
+    .touch__atlas {
+      width: 100%;
+    }
+
+    .touch__form {
+      margin-bottom: 20px;
+    }
+
+    .dx__contacts {
+      .contact__blog {
+        .contacts__icon {
+          font-size: 20px;
+        }
+        .contacts__content {
+          text-align: start;
+          h5 {
+            font-size: 16px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include sm {
+  .touch__container {
+    .touch__form {
+      .touch__forma {
+        .form__blog {
+          textarea {
+            height: 100px;
+          }
+        }
+        .touch__btn {
+          .btn {
+            padding: 10px;
+          }
+        }
+      }
+    }
+
+    .dx__contacts {
+      .contact__blog {
+        .contacts__icon {
+          font-size: 20px;
+        }
+        .contacts__content {
+          h5 {
+            font-size: 12px;
+          }
+
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include xs {
+  .touch__container {
+    .touch__form {
+      .touch__content {
+        font-size: 13px;
+      }
+    }
+    .dx__contacts {
+      flex-direction: column;
+      .contact__blog {
+        width: max-content;
+        margin: 10px auto;
+        .contacts__icon {
+          font-size: 25px;
+        }
+        .contacts__content {
+          h5 {
+            font-size: 14px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
